@@ -96,18 +96,6 @@ html {
 .btn-inverted { background-color: #FAF8F3; color: #2D2924; }
 .btn-inverted:hover { background-color: #F0E9DC; }
 
-/* Acuity embed placeholder */
-.acuity-placeholder {
-    background: #FAF8F3;
-    border: 2px dashed #C5D4BB;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 600px;
-    text-align: center;
-    padding: 2rem;
-}
 
 </style>
 </head>
@@ -207,7 +195,7 @@ SERVICES
 
             <!-- Therapeutic -->
             <div class="rounded-md p-4">
-                <div class="text-center mb-3"><i class="ph ph-hand-heart text-7xl text-sage-700"></i></div>
+                <div class="flex items-center justify-center h-20 mb-3"><i class="ph ph-hand-heart text-7xl text-sage-700"></i></div>
                 <h3 class="font-semibold text-lg mb-2 text-center">Therapeutic Massage</h3>
                 <p class="text-warm-500 text-sm leading-relaxed">
                     Advanced techniques including myofascial release and trigger point therapy to address chronic pain, muscle tension, and restricted movement.
@@ -221,7 +209,7 @@ SERVICES
 
             <!-- Pulmonary Support -->
             <div class="rounded-md p-4">
-                <div class="text-center mb-3"><i class="ph ph-stethoscope text-7xl text-sage-700"></i></div>
+                <div class="flex items-center justify-center h-20 mb-3"><i class="ph ph-stethoscope text-7xl text-sage-700"></i></div>
                 <h3 class="font-semibold text-lg mb-2 text-center">Pulmonary Support Massage</h3>
                 <p class="text-warm-500 text-sm leading-relaxed">
                     Specialized massage to support deeper breathing, ease shortness of breath, and enhance lung capacity. Ideal for COPD, asthma, pulmonary fibrosis, and Long COVID.
@@ -236,7 +224,11 @@ SERVICES
 
             <!-- Oncology-Sensitive -->
             <div class="rounded-md p-4">
-                <div class="text-center mb-3"><i class="ph ph-radioactive text-7xl text-sage-700"></i></div>
+                <div class="flex items-center justify-center h-20 mb-3">
+                    <svg class="inline-block w-[60px] h-[60px] text-sage-700" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" viewBox="-1 -1 58.233 58.233" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M47.64,45.551L36.585,32.038l7.324-9.493c0.027-0.036,0.053-0.073,0.075-0.113c3.321-5.779-4.146-18.572-5.01-20.012c-0.001-0.002-0.002-0.003-0.003-0.004c-0.056-0.093-0.127-0.177-0.211-0.247c-0.028-0.024-0.063-0.036-0.094-0.057c-0.057-0.038-0.112-0.081-0.178-0.107c-0.002-0.001-0.005-0.002-0.008-0.003c-0.001,0-0.002-0.001-0.003-0.001c-6.681-2.669-14.039-2.669-20.72,0c-0.002,0.001-0.003,0.001-0.005,0.002c-0.002,0.001-0.004,0.002-0.006,0.002c-0.054,0.022-0.098,0.058-0.146,0.088c-0.042,0.026-0.088,0.044-0.127,0.076c-0.083,0.07-0.154,0.154-0.21,0.246c-0.001,0.002-0.003,0.003-0.004,0.005c-0.863,1.44-8.331,14.233-5.01,20.012c0.022,0.04,0.048,0.077,0.075,0.113l7.323,9.493L8.593,45.551c-1.604,1.959-1.377,4.811,0.516,6.493l3.376,3.001c0.862,0.767,1.982,1.188,3.129,1.188c0.145,0,0.29-0.007,0.435-0.021c1.294-0.122,2.49-0.781,3.284-1.81l8.784-11.386L36.9,54.403c0.794,1.028,1.99,1.688,3.284,1.81c0.145,0.014,0.29,0.021,0.435,0.021c1.146,0,2.267-0.422,3.129-1.188l3.376-3.001C49.016,50.361,49.243,47.51,47.64,45.551z M22.975,15.404c3.325-1.178,6.957-1.178,10.283,0l-5.141,6.284L22.975,15.404z M42.281,21.381l-6.997,9.068l-5.875-7.181l5.484-6.703c0.156-0.192,3.25-4.072,4.052-10.025C41.266,11.149,44.048,18.17,42.281,21.381z M37.058,3.599l-0.331,3.966c-0.007,0.036-0.014,0.073-0.021,0.109c-0.05,0.236-0.105,0.466-0.162,0.693c-0.03,0.119-0.059,0.238-0.091,0.354c-0.053,0.199-0.109,0.393-0.167,0.584c-0.045,0.147-0.09,0.292-0.137,0.435c-0.05,0.153-0.1,0.305-0.151,0.452c-0.069,0.195-0.139,0.385-0.21,0.57c-0.033,0.087-0.066,0.177-0.1,0.263c-0.429,1.071-0.887,1.961-1.286,2.653c-4.039-1.565-8.531-1.566-12.572,0c-0.406-0.704-0.873-1.614-1.308-2.708c-0.021-0.053-0.042-0.109-0.063-0.164c-0.084-0.216-0.166-0.44-0.246-0.67c-0.041-0.118-0.081-0.239-0.121-0.361c-0.057-0.172-0.111-0.349-0.165-0.528c-0.049-0.164-0.097-0.331-0.143-0.501c-0.04-0.145-0.076-0.295-0.113-0.444c-0.049-0.201-0.098-0.402-0.142-0.609c-0.01-0.044-0.017-0.091-0.026-0.136l-0.329-3.959C24.97,1.468,31.263,1.468,37.058,3.599z M17.749,53.181c-0.463,0.6-1.133,0.969-1.887,1.04c-0.754,0.072-1.482-0.167-2.049-0.671l-3.376-3.001c-1.087-0.966-1.218-2.605-0.296-3.731l10.761-13.153l2.085,2.702l3.867,5.013L17.749,53.181z M45.796,50.548L42.42,53.55c-0.566,0.504-1.296,0.744-2.049,0.671c-0.754-0.071-1.424-0.44-1.887-1.04l-9.575-12.412l0,0l-7.191-9.322v0l-7.765-10.065c-1.766-3.208,1.016-10.229,3.336-14.839c0.802,5.952,3.896,9.832,4.052,10.023c0.001,0.001,0.002,0.002,0.002,0.003l6,7.333c0,0,0,0.001,0,0.001l7.19,8.789c0.001,0.001,0.002,0.001,0.003,0.002l11.557,14.125C47.013,47.943,46.882,49.582,45.796,50.548z"/>
+                    </svg>
+                </div>
                 <h3 class="font-semibold text-lg mb-2 text-center">Oncology-Sensitive Massage</h3>
                 <p class="text-warm-500 text-sm leading-relaxed">
                     Gentle, specialized care for breast cancer patients and survivors, including post-reconstructive support — scar tissue management, range of motion, fatigue &amp; stress relief.
@@ -283,15 +275,16 @@ ABOUT
             </div>
 
             <!-- Meet JoJo video -->
-            <div class="p-4 mb-6 text-center max-w-2xl mx-auto">
-                <div class="relative w-full rounded-md overflow-hidden border border-warm-200" style="padding-top: 56.25%;">
-                    <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/n_SwUqNigGo?si=c12jTUJEIUSuGuxD" title="Meet JoJo Bonino, LMT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
+            <div class="px-4 mb-3 text-center max-w-2xl mx-auto">
+                <div class="relative w-full rounded-md overflow-hidden border border-warm-200">
+                    <video class="w-full" controls preload="metadata">
+                        <source src="justbreath-inhomemassage-intro.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
             <!-- Bio-->
-            <div class="p-8 mb-10 max-w-2xl mx-auto">
+            <div class="px-8 pt-4 pb-8 mb-10 max-w-2xl mx-auto">
                 <div class="flex flex-col gap-5">
 
                     <div>
@@ -459,32 +452,8 @@ BOOKING — Acuity embed
             </div>
 
             <!-- Acuity Scheduler embed -->
-            <div class="acuity-placeholder">
-                <!--
-TO ADD ACUITY:
-1. Log in to your Acuity account
-2. Go to Business Settings → Integrations → Embed Scheduler
-3. Copy the embed code and replace this entire <div class="acuity-placeholder"> block with it
-
-It will look something like:
-<iframe src="https://app.acuityscheduling.com/schedule.php?owner=XXXXXXX"
-title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe>
-<script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
--->
-                <div class="flex flex-col items-center gap-4 text-warm-400">
-                    <svg class="w-12 h-12 opacity-40" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
-                    </svg>
-                    <p class="text-sm font-medium">Acuity Scheduler Embed</p>
-                    <p class="text-xs text-center max-w-xs">
-                        Replace this block with your Acuity embed code.<br />
-                        Get it from: Acuity → Business Settings → Integrations → Embed Scheduler
-                    </p>
-                    <a href="https://acuityscheduling.com" target="_blank" rel="noopener" class="btn-primary">
-                        Book via Acuity ↗
-                    </a>
-                </div>
-            </div>
+            <iframe src="https://app.acuityscheduling.com/schedule/ca5c8823" title="Just Breathe Therapeutic Massage" width="100%" height="800" frameborder="0"></iframe>
+            <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
         </div>
 
     </section>
@@ -526,7 +495,7 @@ CONTACT
                 </a>
 
                 <!-- Book Online -->
-                <a href="#booking" class="flex flex-col items-center gap-3 p-6 bg-sage-700 text-white rounded-md hover:bg-sage-800 transition-colors text-center">
+                <a href="https://app.acuityscheduling.com/schedule/ca5c8823" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center gap-3 p-6 bg-sage-700 text-white rounded-md hover:bg-sage-800 transition-colors text-center">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                     </svg>
