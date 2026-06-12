@@ -96,3 +96,19 @@ Captions make your video accessible to more people and help Google understand wh
 6. YouTube will auto-generate captions within a few minutes — click on them to review and fix any errors
 7. When you're happy with them, click the three dots next to the captions → **Download** → choose **.vtt** format
 8. **Send that file to Kate** and she'll add it to your site
+
+---
+
+## Note: Match Your Acuity Booking Form Colors
+
+I'd also recommend updating the colors on your Acuity booking form to match your site. You can do this in Acuity under **Business Settings → Customize Appearance**.
+
+**Primary green**
+- `#2D494C` — buttons, icons, accents
+
+**Warm text colors**
+- `#453E37` — body text
+- `#746A61` — muted text
+- `#938679` — subtle/label text
+- `#B5A898` — light accent text
+- `#F5F2EC` — background
