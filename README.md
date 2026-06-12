@@ -81,3 +81,18 @@ Because your site collects booking information through Acuity Scheduling and wil
 - **Privacy Policy Generator** (privacypolicygenerator.info) — free, basic, gets the job done
 
 Once you have a link or a page, **send it to Kate** and she'll add a link to the footer of your site.
+
+---
+
+## Part 6: Add Captions to Your Intro Video (recommended)
+
+Captions make your video accessible to more people and help Google understand what the video is about. Here's the easiest free way to get them:
+
+1. Go to **youtube.com** and sign in (or create a free account)
+2. Click your profile photo → **YouTube Studio**
+3. Click **Upload video** and upload your intro video
+4. Under visibility, choose **Unlisted** (so it won't show publicly on YouTube)
+5. Once uploaded, click on the video → **Subtitles** in the left menu
+6. YouTube will auto-generate captions within a few minutes — click on them to review and fix any errors
+7. When you're happy with them, click the three dots next to the captions → **Download** → choose **.vtt** format
+8. **Send that file to Kate** and she'll add it to your site
