@@ -8,11 +8,25 @@
 <meta name="description" content="Mobile therapeutic massage in Tucson by JoJo Bonino, LMT. Specializing in chronic pain relief, pulmonary support, oncology-sensitive, and medical massage. We come to you." />
 <meta name="keywords" content="Mobile Massage Tucson, Oncology Massage Tucson, Pulmonary Support Massage, Medical Massage, Therapeutic Massage, Chronic Pain Relief, In-home massage Tucson" />
 
-<!-- Google Fonts -->
+<!-- Favicon -->
+<!-- TODO: add favicon once branding assets are finalized -->
+<!-- <link rel="icon" href="favicon.ico"> -->
+
+<!-- Open Graph -->
+<!-- TODO: update og:url and og:image once site is deployed -->
+<meta property="og:type"        content="website" />
+<meta property="og:title"       content="Just Breathe Therapeutic Massage | Mobile Massage in Tucson" />
+<meta property="og:description" content="Mobile therapeutic massage in Tucson by JoJo Bonino, LMT. Specializing in chronic pain relief, pulmonary support, oncology-sensitive, and medical massage. We come to you." />
+<meta property="og:image"       content="hero-massage.png" />
+
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@400;500;600&family=Alex+Brush&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@800,700,500,400&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="styles.css">
 
 <!-- Tailwind CSS CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -57,46 +71,16 @@ tailwind.config = {
 </script>
 
 <style type="text/tailwindcss">
-/* Fonts */
-@font-face {
-    font-family: 'Armelie';
-    src: url('fonts/armelie.regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-body { font-family: 'DM Sans', sans-serif; }
-
-/* Smooth scroll */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Buttons */
-.btn-primary,
-.btn-secondary,
-.btn-secondary-white,
-.btn-inverted {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    transition: background-color 0.15s ease, border-color 0.15s ease;
-    line-height: 1;
-    white-space: nowrap;
-}
-.btn-primary { @apply bg-sage-700 text-white; }
-.btn-primary:hover { @apply bg-sage-800; }
-.btn-secondary { @apply border border-sage-200 text-sage-700; }
-.btn-secondary:hover { @apply border-sage-400; }
-.btn-secondary-white { border: 1px solid #fff; color: #fff; }
-.btn-secondary-white:hover { background-color: rgba(255,255,255,0.1); }
-.btn-inverted { background-color: #FAF8F3; color: #2D2924; }
-.btn-inverted:hover { background-color: #F0E9DC; }
-
-
+/* Button colors — must stay inline: Tailwind CDN cannot process @apply in external files.
+   Base layout (.btn-*) is in styles.css. If migrating to a build tool, move these there. */
+.btn-primary             { @apply bg-sage-700 text-white; }
+.btn-primary:hover       { @apply bg-sage-800; }
+.btn-secondary           { @apply border border-sage-200 text-sage-700; }
+.btn-secondary:hover     { @apply border-sage-400; }
+.btn-secondary-white     { @apply border border-white text-white; }
+.btn-secondary-white:hover { @apply bg-white/10; }
+.btn-inverted            { @apply bg-warm-50 text-warm-900; }
+.btn-inverted:hover      { @apply bg-warm-100; }
 </style>
 </head>
 
@@ -552,7 +536,7 @@ MOBILE STICKY FOOTER CTA
     </div>
 
 <!-- Phosphor Icons -->
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 </body>
 
 </html>

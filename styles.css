@@ -1,0 +1,45 @@
+/* =============================================
+   Just Breathe Therapeutic Massage — styles.css
+
+   Custom styles beyond Tailwind utilities.
+
+   COLOR TOKENS: defined in the tailwind.config
+   inline <script> block in index.html (required
+   by the Tailwind CDN — cannot be externalized).
+   Button color rules use @apply and must also
+   stay in the <style type="text/tailwindcss">
+   block in index.html for the same reason.
+
+   If migrating to a Tailwind build (Vite, etc.),
+   move the config + @apply rules here and remove
+   the inline blocks.
+   ============================================= */
+
+/* Custom font */
+@font-face {
+    font-family: 'Armelie';
+    src: url('fonts/armelie.regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Base */
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; }
+
+/* Buttons — layout only; colors live in index.html via @apply */
+.btn-primary,
+.btn-secondary,
+.btn-secondary-white,
+.btn-inverted {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    line-height: 1;
+    white-space: nowrap;
+}
