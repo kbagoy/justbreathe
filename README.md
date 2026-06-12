@@ -2,7 +2,25 @@
 
 ---
 
-## Part 1: Google Search Console (helps Google find your site)
+## Part 1: Point Your Domain to Your Website
+
+Log in to wherever you bought your domain (GoDaddy, Namecheap, Squarespace, etc.) and find the **DNS Settings**.
+
+Add these records exactly as shown:
+
+| Type | Name | Value |
+|------|------|-------|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | kbagoy.github.io |
+
+> Once saved, **let Kate know** — she'll finish setting up the secure connection (the padlock in the browser). DNS changes can take up to 24 hours so don't worry if the site doesn't look right immediately.
+
+---
+
+## Part 3: Google Search Console (helps Google find your site)
 
 1. Go to **search.google.com/search-console**
 2. Sign in with your Google account
@@ -15,7 +33,7 @@ That's it — Google will now crawl and index your site.
 
 ---
 
-## Part 2: Google Business Profile (shows up on Google Maps)
+## Part 4: Google Business Profile (shows up on Google Maps)
 
 This is one of the most important things you can do for local visibility.
 
