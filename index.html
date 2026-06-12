@@ -39,12 +39,12 @@ tailwind.config = {
                     900: '#201D19',
                 },
                 sage: {
-                    100: '#EDF2E9',
-                    200: '#C5D4BB',
-                    400: '#8FA882',
-                    600: '#4A6641',
-                    700: '#42625B',
-                    800: '#334e47',
+                    100: '#E8EEF0',
+                    200: '#C0D4D6',
+                    400: '#6FA0A6',
+                    600: '#3D6468',
+                    700: '#2D494C',
+                    800: '#1E3436',
                 },
             },
             fontSize: {
@@ -56,7 +56,7 @@ tailwind.config = {
 
 </script>
 
-<style>
+<style type="text/tailwindcss">
 /* Fonts */
 @font-face {
     font-family: 'Armelie';
@@ -87,10 +87,10 @@ html {
     line-height: 1;
     white-space: nowrap;
 }
-.btn-primary { background-color: #42625B; color: #fff; }
-.btn-primary:hover { background-color: #334e47; }
-.btn-secondary { border: 1px solid #C5D4BB; color: #42625B; }
-.btn-secondary:hover { border-color: #8FA882; }
+.btn-primary { @apply bg-sage-700 text-white; }
+.btn-primary:hover { @apply bg-sage-800; }
+.btn-secondary { @apply border border-sage-200 text-sage-700; }
+.btn-secondary:hover { @apply border-sage-400; }
 .btn-secondary-white { border: 1px solid #fff; color: #fff; }
 .btn-secondary-white:hover { background-color: rgba(255,255,255,0.1); }
 .btn-inverted { background-color: #FAF8F3; color: #2D2924; }
@@ -119,8 +119,8 @@ HERO — full-bleed with transparent nav overlay
         <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
 
           <!-- Logo / Name -->
-          <a href="#hero" class="flex flex-col leading-tight">
-            <span class="font-display text-xl font-semibold tracking-wide text-white">Just Breathe</span>
+          <a href="#hero" class="flex flex-col items-start leading-tight">
+            <span class="font-display text-lg font-medium tracking-[0.18em] text-white uppercase">Just Breathe</span>
             <span class="text-xs uppercase tracking-widest text-white/60">Therapeutic Massage</span>
           </a>
 
